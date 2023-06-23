@@ -15,11 +15,11 @@
             Então redirecionou para a tela de checkout
 
             Esquema do Cenário: Validar que ao inserir um dos campos inválidos exibe uma mensagem de alerta
-            Quando eu digitar o usuário <usuario>
-            E a senha <senha>
+            Quando eu digitar o usuário <username>
+            E a senha <password>
             Então deve exibir uma mensagem de alerta <mensagem>
 
             Exemplos:
-            | usuario                      | senha           | mensagem                     |
+            | username                     | password        | mensagem                     |
             | "email_invalido@ebac.com.br" | "teste@123"     | “Usuário ou senha inválidos” |
             | "maria@ebac.com.br"          | "senhaInvalida" | “Usuário ou senha inválidos” |
